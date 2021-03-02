@@ -65,7 +65,7 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 grid-column-gap:3rem;
 grid-row-gap:5rem;
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 400px){
    
     grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
  
