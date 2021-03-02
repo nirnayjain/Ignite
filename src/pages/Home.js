@@ -64,7 +64,7 @@ grid-column-gap:3rem;
 grid-row-gap:5rem;
  @media screen and (max-width:767px)
   {
-    width:100;
+    width:100%;
   }
 `
 export default Home;
