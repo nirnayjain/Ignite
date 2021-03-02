@@ -62,5 +62,9 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
 grid-column-gap:3rem;
 grid-row-gap:5rem;
+ @media screen and (max-width:767px)
+  {
+    width:100;
+  }
 `
 export default Home;
