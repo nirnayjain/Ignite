@@ -38,5 +38,10 @@ img{
     height:40vh;
     object-fit: cover;
     
-}`
+}
+ /* @media screen and (max-width:767px)
+  {
+    width:767px;
+  } */
+`
 export default Game;

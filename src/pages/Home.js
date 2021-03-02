@@ -59,13 +59,9 @@ h2{
 const Games=styled(motion.div)`
 min-height:80vh;
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(500px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 grid-column-gap:3rem;
 grid-row-gap:5rem;
- @media screen and (max-width:767px)
-  {
-    display:flex;
-    flex-direction:column;
-  }
+
 `
 export default Home;
