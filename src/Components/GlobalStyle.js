@@ -9,7 +9,7 @@ body{
 }
 h2{
     font-family: 'Abril Fatface', cursive;
-    font-size:3rem;
+    font-size:2rem;
     font-weight:lighter;
 }
 h3{

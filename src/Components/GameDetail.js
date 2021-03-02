@@ -146,6 +146,7 @@ color:black;
 img{
     width:100%;
 }
+
 `
 const Stats=styled(motion.div)`
 display:flex;

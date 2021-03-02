@@ -54,6 +54,9 @@ padding: 0rem 5rem;
 h2{
     padding:5rem 0rem;
 }
+ @media screen and (max-width: 768px){
+     padding:0rem 3.5rem ;
+ }
 
 `
 const Games=styled(motion.div)`
@@ -62,6 +65,10 @@ display:grid;
 grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 grid-column-gap:3rem;
 grid-row-gap:5rem;
-
+ @media screen and (max-width: 768px){
+   
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+ 
+} 
 `
 export default Home;

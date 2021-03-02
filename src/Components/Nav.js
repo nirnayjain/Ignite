@@ -29,7 +29,7 @@ const Nav = () => {
         <img src={logo} alt="logo" />
         <h1 onClick={clearSearched}>Ignite</h1>
       </Logo>
-      <form className="search">
+      <form>
         <input value={textInput} onChange={inputHandler} type="text" />
         <button onClick={submitSearch} type="submit">
           Search
@@ -58,12 +58,23 @@ const StyledNav = styled(motion.nav)`
     cursor: pointer;
     background: #ff7676;
     color: white;
+    &:hover{
+      background-color:#ee5959
+    }
   }
   @media screen and (max-width:767px)
   {
-    
+    input{
+      width:60%;
+      font-size:1rem;
+    }
+    button{
+      font-size:1rem;
+      padding:0.5rem 1rem;
+    }
   }
 `;
+
 
 const Logo = styled(motion.div)`
   display:flex;
