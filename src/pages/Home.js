@@ -64,8 +64,8 @@ grid-column-gap:3rem;
 grid-row-gap:5rem;
  @media screen and (max-width:767px)
   {
-    width:100%;
-    padding:0;
+    display:flex;
+    flex-direction:column;
   }
 `
 export default Home;
