@@ -2,6 +2,7 @@
   "name": "ignite",
   "version": "0.1.0",
   "private": true,
+  "proxy":"https://api.rawg.io/api",
   "homepage": "http://nirnayjain.github.io/Ignite",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",

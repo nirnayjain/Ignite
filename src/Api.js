@@ -1,4 +1,4 @@
-const  base_url="https://api.rawg.io/api/";
+const  base_url="https://api.rawg.io/api";
 const getCurrentMonth=()=>{
     const month=new Date().getMonth()+1;
     if(month<10)
